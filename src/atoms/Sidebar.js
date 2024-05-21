@@ -39,7 +39,7 @@ function Sidebar() {
         <nav>
           <ul>
             <li>
-              <a href={`/`}>DashBoard</a>
+              <a href={`/dashboard`}>DashBoard</a>
             </li>
             <li>
               <a href={`/all-screens`}>All Screens</a>
