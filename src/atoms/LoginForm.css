@@ -1,0 +1,173 @@
+.login-holder {
+    font-family: system, -apple-system, BlinkMacSystemFont, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    background: #e48628;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.login-logo{
+width: 25%;
+}
+
+ .login-holder a {
+    color: #a67a2e;
+  }
+  
+  .login-holder a:hover {
+    color: #725522;
+  }
+  
+  .well {
+    flex-grow: 1;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: none;
+    background: white;
+    box-shadow: 0px 6px 60px 0px rgba(38, 51, 64, 0.08);
+    border: none;
+    border-radius: 6px;
+    padding: 50px 60px; 
+  }
+  
+  .well h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #263340;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: 300;
+    color: #d2d4d6;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: .8rem;
+    transform: translateY(-50%);
+    transition: all .2s ease-in-out;
+  }
+  
+  .form-group input[type="text"].form-control,
+  .form-group input[type="password"].form-control,
+  .form-group input[type="email"].form-control {
+    height: 48px;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    font-weight: 300;
+    color: #cbd0d4;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    transition: all .1s ease-in-out;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .form-group input[type="text"].form-control:focus,
+  .form-group input[type="password"].form-control:focus,
+  .form-group input[type="email"].form-control:focus,
+  .form-group input[type="text"].form-control:active,
+  .form-group input[type="password"].form-control:active,
+  .form-group input[type="email"].form-control:active {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .form-group input[type="text"].form-control:active + label,
+  .form-group input[type="password"].form-control:active + label,
+  .form-group input[type="email"].form-control:active + label,
+  .form-group input[type="text"].form-control:focus + label,
+  .form-group input[type="password"].form-control:focus + label,
+  .form-group input[type="email"].form-control:focus + label,
+  .form-group input[type="text"].form-control.active + label,
+  .form-group input[type="password"].form-control.active + label,
+  .form-group input[type="email"].form-control.active + label {
+    color: darken(#717e88, 0%);
+    font-size: 11px;
+    top: -10px;
+    transform: none;
+  }
+  
+  .form-group input[type="text"].form-control:active ~ .input-border,
+  .form-group input[type="password"].form-control:active ~ .input-border,
+  .form-group input[type="email"].form-control:active ~ .input-border,
+  .form-group input[type="text"].form-control:focus ~ .input-border,
+  .form-group input[type="password"].form-control:focus ~ .input-border,
+  .form-group input[type="email"].form-control:focus ~ .input-border,
+  .form-group input[type="text"].form-control.active ~ .input-border,
+  .form-group input[type="password"].form-control.active ~ .input-border,
+  .form-group input[type="email"].form-control.active ~ .input-border {
+    width: 100%;
+  }
+  
+  .input-border {
+    display: block;
+    /* width: 0%; */
+    height: 1px;
+    background: #e2e4e7;
+    transition: all .2s ease-in-out;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    margin: 0 auto;
+  }
+  
+
+  .logo-holder-login{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .version{
+    text-align: left;
+    font-size: .6rem;
+    margin-top: -2px;
+    color: #d2d4d6;
+
+  }
+  .btn {
+     font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 14px 40px;
+    min-width: 170px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background: #e48628;
+    transition: all .2s ease-in-out;
+    margin-top: 30px;
+  }
+  
+  .btn:hover {
+    background: black !important;
+    border: none;
+    color: white !important;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .helper-text {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 20px;
+    color:#717e88;
+  }
+  

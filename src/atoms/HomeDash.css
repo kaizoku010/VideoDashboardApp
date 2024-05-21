@@ -1,0 +1,95 @@
+.homeDashboard{
+    height: 100vh;
+    height: 20%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash-holder{
+    height: max-content;
+    border-radius: 10px;
+    background-color: #000000;
+    padding: 20px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    width: 30%;
+}
+
+.greetings{
+ /* background-color: #f2ba29;  */
+ background-size: cover;
+ background-image: url("../media/new_bg.jpg");
+ flex-grow: 2;  
+ margin-right: 10px;
+ padding: 20px;
+ border-radius: 10px;
+ width: 70%;
+}
+
+.greetings-text{
+    color: white;
+    font-weight: 600;
+}
+
+.greetings-subText{
+    color: #424040;
+    margin-top: -1.2em;
+}
+
+.hide-me{
+    display: none;
+}
+
+.recent-video{
+display: flex;
+align-items: center;
+}
+
+.play_ic{
+    /* background-color: black; */
+    width: 20%;
+    margin-right: 5px;
+    height: 20%;
+}
+
+.last-video-details{
+    display: flex;
+    /* background-color: blue; */
+    flex-direction: column;
+}
+
+.lvp-title{
+    color: white;
+}
+
+
+.lv-title{
+    margin-top: -1em;
+    color: white;
+    font-size: small;
+}
+
+.lv-playback{
+    margin-top: -1em;
+    font-size: smaller;
+    color: gray;
+}
+
+.overview{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+
+}
+
+.add-text{
+margin-bottom: -20%;
+font-size: smaller;
+color: gray;
+}

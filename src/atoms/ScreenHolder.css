@@ -1,0 +1,30 @@
+.screen-holder{
+display: flex;
+padding: 5px;
+border-radius: 10px;
+}
+
+
+.screen-holder:hover{
+    cursor: pointer;
+    background-color: rgba(216, 216, 216, 0.336);
+}
+
+.screen-ic{
+    height: 10em;
+}
+
+.screen-details{
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.screen-details > p{
+    font-size: smaller;
+}
+
+.sc-span{
+    color:red
+}

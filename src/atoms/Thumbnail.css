@@ -1,0 +1,27 @@
+.thumbnail{
+    display: flex;
+    justify-content: center;
+    /* width: 200px;
+    
+    height: 100px; */
+}
+
+.thumbnail-img{
+    border-radius: 10px !important;
+    width: 70px;
+    height: 70px;
+}
+
+.thumbnail-ic{
+    width: 70px;
+    height: 70px;
+}
+
+.thumbnail:hover{
+    cursor: pointer;
+}
+
+.thumbnail-details{
+    display: flex;
+    flex-direction: column;
+}

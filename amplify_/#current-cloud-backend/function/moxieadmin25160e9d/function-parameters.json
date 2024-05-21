@@ -1,0 +1,13 @@
+{
+  "permissions": {},
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "dev",
+      "environmentVariableName": "dev"
+    }
+  ],
+  "secretNames": [
+    "dev"
+  ]
+}

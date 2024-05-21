@@ -1,0 +1,15 @@
+.login-page{
+    display: flex;
+    width: 100%;
+}
+
+.sir-dixon{
+    background-image: url("../media//login_img.jpg");
+    /* background-color: aquamarine; */
+    width: 70%;
+
+}
+
+.login-form{
+    width: 30%;
+}

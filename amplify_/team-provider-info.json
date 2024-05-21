@@ -1,0 +1,42 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-moxieadmin-dev-183154-authRole",
+      "UnauthRoleArn": "arn:aws:iam::058264114717:role/amplify-moxieadmin-dev-183154-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::058264114717:role/amplify-moxieadmin-dev-183154-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-moxieadmin-dev-183154-deployment",
+      "UnauthRoleName": "amplify-moxieadmin-dev-183154-unauthRole",
+      "StackName": "amplify-moxieadmin-dev-183154",
+      "StackId": "arn:aws:cloudformation:us-east-1:058264114717:stack/amplify-moxieadmin-dev-183154/cd49d410-e92a-11ee-bbaf-129336e72091",
+      "AmplifyAppId": "d3gv6wsskp6x32"
+    },
+    "categories": {
+      "function": {
+        "moxieadmin25160e9d": {
+          "dev": "dev",
+          "secretsPathAmplifyAppId": "d3gv6wsskp6x32",
+          "deploymentBucketName": "amplify-moxieadmin-dev-183154-deployment",
+          "s3Key": "amplify-builds/moxieadmin25160e9d-4c327542414837527855-build.zip"
+        },
+        "moxieadmin4e069057": {
+          "deploymentBucketName": "amplify-moxieadmin-dev-183154-deployment",
+          "s3Key": "amplify-builds/moxieadmin4e069057-5775484a47536442722b-build.zip"
+        },
+        "S3Trigger7ede7e01": {
+          "deploymentBucketName": "amplify-moxieadmin-dev-183154-deployment",
+          "s3Key": "amplify-builds/S3Trigger7ede7e01-39356f2f6f5078456e4f-build.zip"
+        }
+      },
+      "api": {
+        "moxieapi": {}
+      },
+      "auth": {
+        "moxieadmin7998fd59": {}
+      },
+      "storage": {
+        "videoData": {}
+      }
+    }
+  }
+}

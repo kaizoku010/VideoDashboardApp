@@ -1,0 +1,202 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-moxieadmin-dev-183154-authRole",
+      "UnauthRoleArn": "arn:aws:iam::058264114717:role/amplify-moxieadmin-dev-183154-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::058264114717:role/amplify-moxieadmin-dev-183154-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-moxieadmin-dev-183154-deployment",
+      "UnauthRoleName": "amplify-moxieadmin-dev-183154-unauthRole",
+      "StackName": "amplify-moxieadmin-dev-183154",
+      "StackId": "arn:aws:cloudformation:us-east-1:058264114717:stack/amplify-moxieadmin-dev-183154/cd49d410-e92a-11ee-bbaf-129336e72091",
+      "AmplifyAppId": "d3gv6wsskp6x32"
+    }
+  },
+  "function": {
+    "moxieadmin25160e9d": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [],
+      "lastBuildTimeStamp": "2024-03-23T15:41:09.310Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2024-03-23T15:41:09.347Z",
+      "distZipFilename": "moxieadmin25160e9d-4c327542414837527855-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-moxieadmin-dev-183154-deployment",
+        "s3Key": "amplify-builds/moxieadmin25160e9d-4c327542414837527855-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-moxieadmin-dev-183154-deployment/amplify-cfn-templates/function/moxieadmin25160e9d-cloudformation-template.json",
+        "logicalId": "functionmoxieadmin25160e9d"
+      },
+      "lastPushTimeStamp": "2024-03-23T16:09:42.564Z",
+      "output": {
+        "LambdaExecutionRoleArn": "arn:aws:iam::058264114717:role/moxieadminLambdaRole5aa4a65a-dev",
+        "Region": "us-east-1",
+        "CloudWatchEventRule": "amplify-moxieadmin-dev-183154-funct-CloudWatchEvent-b24CXS591IJm",
+        "Arn": "arn:aws:lambda:us-east-1:058264114717:function:moxieadmin25160e9d-dev",
+        "Name": "moxieadmin25160e9d-dev",
+        "LambdaExecutionRole": "moxieadminLambdaRole5aa4a65a-dev"
+      },
+      "lastPushDirHash": "kMjLAlbuKCJEWRo7pPpzlcq7p/I="
+    },
+    "moxieadmin4e069057": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "lastBuildTimeStamp": "2024-03-23T15:41:12.167Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2024-03-23T15:41:12.202Z",
+      "distZipFilename": "moxieadmin4e069057-5775484a47536442722b-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-moxieadmin-dev-183154-deployment",
+        "s3Key": "amplify-builds/moxieadmin4e069057-5775484a47536442722b-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-moxieadmin-dev-183154-deployment/amplify-cfn-templates/function/moxieadmin4e069057-cloudformation-template.json",
+        "logicalId": "functionmoxieadmin4e069057"
+      },
+      "lastPushTimeStamp": "2024-03-23T16:09:42.575Z",
+      "output": {
+        "LambdaExecutionRoleArn": "arn:aws:iam::058264114717:role/moxieadminLambdaRole5ad4cb72-dev",
+        "Region": "us-east-1",
+        "Arn": "arn:aws:lambda:us-east-1:058264114717:function:moxieadmin4e069057-dev",
+        "Name": "moxieadmin4e069057-dev",
+        "LambdaExecutionRole": "moxieadminLambdaRole5ad4cb72-dev"
+      },
+      "lastPushDirHash": "fpUKOKkNRoueu6x7AAhgl47r9NA="
+    },
+    "S3Trigger7ede7e01": {
+      "service": "Lambda",
+      "providerPlugin": "awscloudformation",
+      "build": true,
+      "lastBuildTimeStamp": "2024-03-23T16:06:51.551Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2024-03-23T16:06:51.589Z",
+      "distZipFilename": "S3Trigger7ede7e01-39356f2f6f5078456e4f-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-moxieadmin-dev-183154-deployment",
+        "s3Key": "amplify-builds/S3Trigger7ede7e01-39356f2f6f5078456e4f-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-moxieadmin-dev-183154-deployment/amplify-cfn-templates/function/S3Trigger7ede7e01-cloudformation-template.json",
+        "logicalId": "functionS3Trigger7ede7e01"
+      },
+      "lastPushTimeStamp": "2024-03-23T16:09:44.537Z",
+      "output": {
+        "LambdaExecutionRoleArn": "arn:aws:iam::058264114717:role/S3Trigger7ede7e01LambdaRole7ede7e01-dev",
+        "Region": "us-east-1",
+        "Arn": "arn:aws:lambda:us-east-1:058264114717:function:S3Trigger7ede7e01-dev",
+        "Name": "S3Trigger7ede7e01-dev",
+        "LambdaExecutionRole": "S3Trigger7ede7e01LambdaRole7ede7e01-dev"
+      },
+      "lastPushDirHash": "OIGwjjQR9gNZCTyXlaAm7f/tMhg="
+    }
+  },
+  "api": {
+    "moxieapi": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "moxieadmin25160e9d",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        },
+        {
+          "category": "function",
+          "resourceName": "moxieadmin4e069057",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ],
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-moxieadmin-dev-183154-deployment/amplify-cfn-templates/api/moxieapi-cloudformation-template.json",
+        "logicalId": "apimoxieapi"
+      },
+      "lastPushTimeStamp": "2024-03-23T16:09:42.591Z",
+      "output": {
+        "ApiName": "moxieapi",
+        "RootUrl": "https://swnk7ymnd0.execute-api.us-east-1.amazonaws.com/dev",
+        "ApiId": "swnk7ymnd0"
+      },
+      "lastPushDirHash": "8WYhV8rXOTbiWCwliVxyB2+vA2k="
+    }
+  },
+  "auth": {
+    "moxieadmin7998fd59": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-moxieadmin-dev-183154-deployment/amplify-cfn-templates/auth/moxieadmin7998fd59-cloudformation-template.json",
+        "logicalId": "authmoxieadmin7998fd59"
+      },
+      "lastPushTimeStamp": "2024-03-23T16:09:44.537Z",
+      "output": {
+        "UserPoolId": "us-east-1_yEarO3MtL",
+        "AppClientIDWeb": "1j6fkhthouegvedok4binc0pr",
+        "AppClientID": "2sq42jhrd074b4kflta8slihqc",
+        "IdentityPoolId": "us-east-1:54b8bf5d-09ce-439f-bd75-f2222614c972",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:058264114717:userpool/us-east-1_yEarO3MtL",
+        "IdentityPoolName": "moxieadmin7998fd59_identitypool_7998fd59__dev",
+        "UserPoolName": "moxieadmin7998fd59_userpool_7998fd59"
+      },
+      "lastPushDirHash": "AMpInr3F9pidFxLtBEI8F8hcqxg="
+    }
+  },
+  "storage": {
+    "videoData": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "S3Trigger7ede7e01",
+          "attributes": [
+            "Name",
+            "Arn",
+            "LambdaExecutionRole"
+          ]
+        }
+      ],
+      "lastPushTimeStamp": "2024-03-23T16:09:44.537Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-moxieadmin-dev-183154-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
+        "logicalId": "storagevideoData"
+      },
+      "output": {
+        "BucketName": "moxiescreen183154-dev",
+        "Region": "us-east-1"
+      },
+      "lastPushDirHash": "vDnaf8rSLTt0pdqGBZBXpKOHb48="
+    }
+  }
+}

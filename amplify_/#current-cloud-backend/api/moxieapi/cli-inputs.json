@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/videos": {
+      "name": "/videos",
+      "lambdaFunction": "moxieadmin25160e9d",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/all-vidoes": {
+      "name": "/all-vidoes",
+      "lambdaFunction": "moxieadmin4e069057",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

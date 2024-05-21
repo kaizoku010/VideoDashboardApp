@@ -1,0 +1,33 @@
+.content-details{
+    display: flex;
+    gap: 10px;    
+ }
+
+.screen-section{
+    align-self: center;
+    gap: 10px;
+    /* background-color: red; */
+    width: fit-content;
+    display: flex;
+}
+
+.list-item{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border-radius: 10px;
+        /* background-color: blue; */
+}
+.holder-left{
+    background-color: rgba(240, 237, 237, 0.356);
+    display: flex;
+    border-radius: 10px;
+    align-self: center;
+    flex-direction: column;
+    width: 55%;
+}
+
+.video{
+    border-radius: 10px;
+}

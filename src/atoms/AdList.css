@@ -1,0 +1,19 @@
+.list-title{
+    background-color: rgba(241, 236, 236, 0.449);
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.thumbnail-list {
+    /* border-radius: 10px !important; */
+    width: 10%;
+    margin: 13px;
+}
+
+.list-title:hover{
+cursor: pointer;
+background-color: rgb(228, 228, 228);
+}

@@ -1,0 +1,15 @@
+.video-holder{
+    
+    display: flex;
+}
+.thumb-title{
+    background-color: rgb(233, 231, 231);
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-around;
+}
+
+.thumbnail-list {
+    border-radius: 10px !important;
+    width: 30%;
+}

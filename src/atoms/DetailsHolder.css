@@ -1,0 +1,41 @@
+.details-holder{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 80%;
+    padding: 20px;
+    width: 100%;
+    background-color:#f1f5f9;
+     border-radius: 10px;
+}
+
+.tvp{
+    color: black;
+    font-size: small;
+}
+
+.tvp-lower-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actions{
+    color:rgb(128, 148, 238);
+    font-size: smaller;
+}
+
+.actions:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.actions::after{
+    position:absolute;
+    padding-left: 2px;
+}
+
+.numbers{
+    font-size: medium;
+    color:#424040;
+}
