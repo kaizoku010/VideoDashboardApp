@@ -68,6 +68,7 @@
     "proxy": {
       "/api": {
         "target": "https://moxie5screen.vercel.app/",
+        
         "secure": false,
         "changeOrigin": true
       }
