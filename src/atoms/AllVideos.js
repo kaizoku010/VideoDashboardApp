@@ -53,6 +53,13 @@ function AllVideos() {
                 myBucket.getSignedUrlPromise("getObject", {
                 Bucket: S3_BUCKET,
                 Key: thumbnailKey,
+                // return {
+                //   videoKey,
+                //   title: metadata.Metadata["title"],
+                //   description: metadata.Metadata["description"],
+                //   thumbnailUrl,
+                // };
+              
               }),
             ]);
 
@@ -61,8 +68,8 @@ function AllVideos() {
             const title = metadata.Metadata["x-amz-meta-title"];
             const description = metadata.Metadata["x-amz-meta-description"];
 
-            console.log("Title: ", title);
-            console.log("Description: ", metadata)
+            // console.log("Title: ", title);
+            // console.log("Description: ", metadata)
 
             return {
               videoKey,
@@ -78,7 +85,6 @@ function AllVideos() {
         console.error("Error fetching videos:", error);
       }
     };
-
     fetchVideos();
   }, []);
 

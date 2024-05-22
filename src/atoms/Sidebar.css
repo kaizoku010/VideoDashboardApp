@@ -40,8 +40,8 @@ html {
     line-height: 1.5;
     color: #121212;
   }
-  textarea,
-  input,
+  /* textarea, */
+  /* input, */
   button {
     font-size: 1rem;
     font-family: inherit;
@@ -177,9 +177,9 @@ html {
     position: relative;
   }
   
-  #sidebar > div form input[type="search"].loading {
+  /* #sidebar > div form input[type="search"].loading {
     background-image: none;
-  }
+  } */
   
   #search-spinner {
     width: 1rem;
@@ -342,12 +342,12 @@ html {
   #contact-form label span {
     width: 8rem;
   }
-  #contact-form p:first-child input,
+  /* #contact-form p:first-child input,
   #contact-form label input,
   #contact-form label textarea {
     flex-grow: 2;
   }
-  
+   */
   #contact-form-avatar {
     margin-right: 2rem;
   }
@@ -358,11 +358,11 @@ html {
     background: hsla(0, 0%, 0%, 0.2);
     border-radius: 1rem;
   }
-  
+/*   
   #contact-form-avatar input {
     box-sizing: border-box;
     width: 100%;
-  }
+  } */
   
   #contact-form p:last-child {
     display: flex;

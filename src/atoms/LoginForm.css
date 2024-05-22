@@ -40,13 +40,18 @@ width: 25%;
     margin-bottom: 40px;
     color: #263340;
   }
+
+  .material-ui{
+    width: 17rem !important;
+
+  }
   
   .form-group {
     position: relative;
     margin-top: 25px;
     margin-bottom: 20px;
   }
-  
+/*   
   .form-group label {
     font-weight: 300;
     color: #d2d4d6;
@@ -57,64 +62,9 @@ width: 25%;
     transform: translateY(-50%);
     transition: all .2s ease-in-out;
   }
-  
-  .form-group input[type="text"].form-control,
-  .form-group input[type="password"].form-control,
-  .form-group input[type="email"].form-control {
-    height: 48px;
-    background: none;
-    border-radius: 0;
-    box-shadow: none;
-    font-weight: 300;
-    color: #cbd0d4;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    border: none;
-    border-bottom: 1px solid #ddd;
-    transition: all .1s ease-in-out;
-    position: relative;
-    z-index: 2;
-  }
-  
-  .form-group input[type="text"].form-control:focus,
-  .form-group input[type="password"].form-control:focus,
-  .form-group input[type="email"].form-control:focus,
-  .form-group input[type="text"].form-control:active,
-  .form-group input[type="password"].form-control:active,
-  .form-group input[type="email"].form-control:active {
-    outline: none;
-    box-shadow: none;
-    border: none;
-  }
-  
-  .form-group input[type="text"].form-control:active + label,
-  .form-group input[type="password"].form-control:active + label,
-  .form-group input[type="email"].form-control:active + label,
-  .form-group input[type="text"].form-control:focus + label,
-  .form-group input[type="password"].form-control:focus + label,
-  .form-group input[type="email"].form-control:focus + label,
-  .form-group input[type="text"].form-control.active + label,
-  .form-group input[type="password"].form-control.active + label,
-  .form-group input[type="email"].form-control.active + label {
-    color: darken(#717e88, 0%);
-    font-size: 11px;
-    top: -10px;
-    transform: none;
-  }
-  
-  .form-group input[type="text"].form-control:active ~ .input-border,
-  .form-group input[type="password"].form-control:active ~ .input-border,
-  .form-group input[type="email"].form-control:active ~ .input-border,
-  .form-group input[type="text"].form-control:focus ~ .input-border,
-  .form-group input[type="password"].form-control:focus ~ .input-border,
-  .form-group input[type="email"].form-control:focus ~ .input-border,
-  .form-group input[type="text"].form-control.active ~ .input-border,
-  .form-group input[type="password"].form-control.active ~ .input-border,
-  .form-group input[type="email"].form-control.active ~ .input-border {
-    width: 100%;
-  }
-  
+   */
+
+
   .input-border {
     display: block;
     /* width: 0%; */

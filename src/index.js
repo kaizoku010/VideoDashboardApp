@@ -41,7 +41,7 @@ const uri = 'mongodb+srv://dev:<j0BOBWvPdNy3XW3a>@schoolcluster.vte6gnc.mongodb.
 const Root = createBrowserRouter([
 
   {
-    path:"/login",
+    path:"/",
     element:<Login/>
   },
 

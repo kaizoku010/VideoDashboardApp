@@ -1,35 +1,42 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./HomeDash.css";
 import PlayIC from "../media/play_white.png"
 import DetailsHolder from "./DetailsHolder";
 import ContentDetails from "./ContentDetails";
 import TestPop from "./TestPop";
+import { useLocation } from 'react-router-dom';
 
 function HomeDash() {
   const [message, setMessage] = useState("");
   const [isOpen, setIsOpen] = useState(false);
+  const [userName, setUserName] = useState()
+  const savedName = localStorage.getItem('userName');
+  useEffect(()=>{
+    setUserName(savedName)
+  })
 
-  const sendMessage = (value) => {
-    // Create a WebSocket connection
-    const ws = new WebSocket("ws://localhost:8080");
-    console.log("new connection");
 
-    // When the WebSocket connection is opened
-    ws.onopen = () => {
-      // Send message to WebSocket server
-      ws.send(message);
-      console.log("Data To Send", message);
-      console.log("Value: ", value)
-            // Close the WebSocket connection after sending the message
-      ws.close();
-    };
-  };
+// const sendMessage = (value) => {
+//     // Create a WebSocket connection
+//     // const ws = new WebSocket("ws://localhost:8080");
+//     // console.log("new connection");
+
+//     // When the WebSocket connection is opened
+//     // ws.onopen = () => {
+//     //   // Send message to WebSocket server
+//     //   ws.send(message);
+//     //   console.log("Data To Send", message);
+//     //   console.log("Value: ", value)
+//     //         // Close the WebSocket connection after sending the message
+//     //   ws.close();
+//     // };
+//   };
 
   return (
     <div className="">
       <div className="homeDashboard">
         <div className="greetings">
-          <h2 className="greetings-text">Welcome back, Dixon</h2>
+          <h2 className="greetings-text">Hello, {userName}</h2>
           <h2 className="greetings-subText">Let's get the show started!</h2>
         </div>
         <div className="dash-holder">
@@ -40,7 +47,7 @@ function HomeDash() {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
-            <button onClick={sendMessage}>Send Data</button>
+            {/* <button onClick={sendMessage}>Send Data</button> */}
           
           </div>
 
