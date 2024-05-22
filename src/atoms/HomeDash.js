@@ -12,7 +12,7 @@ function HomeDash() {
   const [userName, setUserName] = useState()
   const savedName = localStorage.getItem('userName');
   useEffect(()=>{
-    setUserName(savedName)
+    setUserName(savedName);
   })
 
 
