@@ -4,12 +4,19 @@ import AdList from "./AdList";
 import AWS from "aws-sdk";
 import "./AllScreens.css"
 import { getObjectMetadata } from "../DataLayer/AWSLayer";
+import io from 'socket.io-client';
+
 
 function AllVideos() {
   const [videos, setVideos] = useState([]);
   const [createdAt, setCreatedAt] = useState();
   const [size, setSize] = useState();
   const [videoKey_, setVideoKey] = useState();
+  const [batteryLevel, setBatteryLevel] = useState(null);
+
+
+  const socket = io('http://192.168.124.2:4000'); // Replace with your server IP or domain
+
 
   useEffect(() => {
     const fetchVideos = async () => {
@@ -53,13 +60,7 @@ function AllVideos() {
                 myBucket.getSignedUrlPromise("getObject", {
                 Bucket: S3_BUCKET,
                 Key: thumbnailKey,
-                // return {
-                //   videoKey,
-                //   title: metadata.Metadata["title"],
-                //   description: metadata.Metadata["description"],
-                //   thumbnailUrl,
-                // };
-              
+           
               }),
             ]);
 
@@ -86,12 +87,22 @@ function AllVideos() {
       }
     };
     fetchVideos();
+
+    socket.on('battery-level', (data) => {
+      console.log('Battery level React Native: ', data);
+      setBatteryLevel(data.level);
+    });
+
+    return () => {
+      socket.off('battery-level');
+    };
+
   }, []);
 
  
   return (
     <div className="all-videos">
-      <p className="welcome-text">Welcome to your video libray</p>
+      <p className="welcome-text">Welcome to your video libray {batteryLevel}</p>
       <div>
         <VideoCardHolder />
       </div>

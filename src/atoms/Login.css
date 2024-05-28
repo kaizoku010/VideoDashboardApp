@@ -13,3 +13,17 @@
 .login-form{
     width: 30%;
 }
+
+@media only screen and (max-width: 900px) {
+
+    .login-page {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .login-form {
+        width: 100% !important;
+    }
+
+}
