@@ -16,21 +16,6 @@ function HomeDash() {
   })
 
 
-// const sendMessage = (value) => {
-//     // Create a WebSocket connection
-//     // const ws = new WebSocket("ws://localhost:8080");
-//     // console.log("new connection");
-
-//     // When the WebSocket connection is opened
-//     // ws.onopen = () => {
-//     //   // Send message to WebSocket server
-//     //   ws.send(message);
-//     //   console.log("Data To Send", message);
-//     //   console.log("Value: ", value)
-//     //         // Close the WebSocket connection after sending the message
-//     //   ws.close();
-//     // };
-//   };
 
   return (
     <div className="">

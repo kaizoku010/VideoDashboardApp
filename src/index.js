@@ -14,6 +14,9 @@ import PopUp from './atoms/PopUp';
 import {Amplify} from 'aws-amplify';
 import AllScreens from './atoms/AllScreens';
 import DeviceLocation from './atoms/DeviceLocation';
+import Campaign from './atoms/Campaign';
+import CampaignList from './atoms/CampaignList';
+import CampaignDetails from './atoms/CampaignDetails';
 
 const config = {
   bucketName:"moxiscreen",
@@ -55,6 +58,21 @@ const Root = createBrowserRouter([
   element:<HomeDash/>
 },
 {
+  path:"/campaigns",
+  element:<Campaign/>
+},
+
+{
+  path:"/campaign-list",
+  element:<CampaignList/>
+},
+
+{
+  path:"/campaign-details/:campaignId",
+  element:<CampaignDetails/>
+},
+
+{
   path:"/all-screens",
   element:<AllScreens/>
 },
@@ -82,9 +100,7 @@ const Root = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
 <RouterProvider router={Root}/>
-  </React.StrictMode>
 );
 
 reportWebVitals();

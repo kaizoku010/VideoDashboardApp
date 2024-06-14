@@ -1,0 +1,36 @@
+.playlist-container {
+    margin: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .video-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-left: 10px;
+  }
+  
+  .add-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  

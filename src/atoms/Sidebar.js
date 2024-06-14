@@ -29,10 +29,10 @@ function Sidebar() {
               type="submit"
               // onClick={handleOpen}
               data-mdb-modal-init
-              data-mdb-target="#exampleModal">
-                  Look Up
+              data-mdb-target="#exampleModal"
+            >
+              Look Up
             </button>
-            
           </form>
         </div>
         <div></div>
@@ -42,13 +42,20 @@ function Sidebar() {
               <a href={`/dashboard`}>DashBoard</a>
             </li>
             <li>
+              <a href={`/all-videos`}>All Ads</a>
+            </li>
+            <li>
               <a href={`/all-screens`}>All Screens</a>
             </li>
             <li>
-              <a href={`/all-videos`}>All Videos</a>
+              <a href={`/campaign-list`}>All Campaigns</a>
             </li>
             <li>
-              <a href={`/screen-location`}>Screen Location</a>
+              <a href={`/campaigns`}>Create Campaign</a>
+            </li>
+
+            <li>
+              <a href={`/screen-location`}>Screen Mapping</a>
             </li>
             <li>
               <a href={`/settings`}>Settings</a>
@@ -60,7 +67,6 @@ function Sidebar() {
               <VideoListItem img={ThumbTest} />
               <VideoListItem img={ThumbTest} />
               <VideoListItem img={ThumbTest} />
-
             </div>
           </ul>
         </nav>

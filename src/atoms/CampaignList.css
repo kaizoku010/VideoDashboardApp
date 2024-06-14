@@ -1,0 +1,77 @@
+.cp-page{}
+
+.campaign-list-container {
+    margin: 20px;
+  }
+  
+  .all-cps-title {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .campaign-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .cp-item{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cps-inner-list {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(230, 230, 230);
+  }
+
+  .cps-inner-list:hover{
+    background-color: rgb(218, 216, 216);
+    cursor: pointer;
+  }
+  
+  
+  .campaign-title {
+    font-weight: bold;
+    margin: 0px;
+    font-size: larger;
+  }
+  
+  .campaign-date {
+    margin-left: 20px;
+    font-size: large;
+    
+    margin: 0px;
+    color: #666;
+  }
+  
+  .campaign-details {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .campaign-details  {
+    margin-right: 20px;
+  }
+  
+
+  .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    margin-top: 0px !important;
+    /* color: #dc2626; */
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    padding: 0;
+    position: relative;
+    display: block;
+    transform-origin: top left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 24px);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }

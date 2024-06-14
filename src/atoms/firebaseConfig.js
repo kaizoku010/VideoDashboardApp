@@ -5,7 +5,7 @@ import 'firebase/messaging'
 import {getMessaging} from "@firebase/messaging"
 import { getToken } from "firebase/messaging";
 import { getFirestore,collection, doc } from "firebase/firestore";
-import { getDatabase, ref, set, push } from "firebase/database";
+import { getDatabase, ref, set, push, get, off, update, remove, serverTimestamp, onValue} from "firebase/database";
 import { getAuth, updateProfile,onAuthStateChanged,createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 
 const firebaseConfig = {
@@ -31,4 +31,4 @@ const db = getFirestore(firebaseApp);
   const messaging = getMessaging(firebaseApp)
 //GlYvCU7UoX4dMHwHKWL91No4utxr8y651MPq_jcu3JA
 // messages  = firebaseApp.messaging();
-export {database,updateProfile,doc, collection, db,messagesRef, ref, set, signInWithEmailAndPassword,createUserWithEmailAndPassword,messaging, push, auth, onAuthStateChanged}
+export {database,serverTimestamp, updateProfile,doc,update, onValue,remove,collection,get,off, db,messagesRef, ref, set, signInWithEmailAndPassword,createUserWithEmailAndPassword,messaging, push, auth, onAuthStateChanged}
